@@ -34,9 +34,9 @@ signal.signal(signal.SIGTERM, close_connection)
 
 
 if Config.UPSTREAM_REPO == "pro":
-    UPSTREAM_REPO_URL = "https://github.com/ITS-LEGENDBOT/LEGENDBOT"
+    UPSTREAM_REPO_URL = "https://github.com/LEGEND-GIRL/LEGENDUSERBOT"
 elif Config.UPSTREAM_REPO == "multi":
-    UPSTREAM_REPO_URL = "https://github.com/ITS-LEGENDBOT/LEGENDUSERBOT"
+    UPSTREAM_REPO_URL = "https://github.com/LEGEND-GIRL/LEGENDUSERBOT"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
